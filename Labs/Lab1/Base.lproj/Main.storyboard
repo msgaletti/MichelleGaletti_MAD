@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" layoutMarginsFollowReadableWidth="YES" distribution="equalCentering" spacing="25" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xgh-HV-6N0">
+                                <rect key="frame" x="56" y="93" width="302" height="133"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcM-sK-1aI">
+                                        <rect key="frame" x="0.0" y="0.0" width="37" height="133"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <color key="tintColor" red="0.26820543409999997" green="0.41161417960000002" blue="0.61088740829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <size key="titleShadowOffset" width="0.0" height="1"/>
+                                        <state key="normal" title="Cats">
+                                            <color key="titleColor" red="0.2682054340839386" green="0.41161417961120605" blue="0.61088740825653076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WKn-Fn-CzR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88m-oH-c8C">
+                                        <rect key="frame" x="125" y="0.0" width="42" height="133"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <color key="tintColor" red="0.26820543409999997" green="0.41161417960000002" blue="0.61088740829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <size key="titleShadowOffset" width="0.0" height="1"/>
+                                        <state key="normal" title="Dogs">
+                                            <color key="titleColor" red="0.2682054340839386" green="0.41161417961120605" blue="0.61088740825653076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zHX-zF-Oxo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JG1-8z-y0e">
+                                        <rect key="frame" x="245" y="0.0" width="57" height="133"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <color key="tintColor" red="0.26820543409999997" green="0.41161417960000002" blue="0.61088740829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <size key="titleShadowOffset" width="0.0" height="1"/>
+                                        <state key="normal" title="Horses">
+                                            <color key="titleColor" red="0.2682054340839386" green="0.41161417961120605" blue="0.61088740825653076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dV7-n5-avX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which animal is cutest?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OxV-NW-F9o">
+                                <rect key="frame" x="56" y="49" width="302" height="29"/>
+                                <color key="tintColor" red="0.13795396369999999" green="0.66353626939999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="laF-V9-vWI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="0.49051666259765625" green="0.63986951112747192" blue="0.30741065740585327" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.5401570200920105" green="0.60856384038925171" blue="0.20455926656723022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Nn-aC-Zsj">
+                                <rect key="frame" x="207" y="653" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czh-Rg-7Qp">
+                                <rect key="frame" x="56" y="774" width="302" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="HY4-xV-fmG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="openimage" translatesAutoresizingMaskIntoConstraints="NO" id="gpw-oi-zJZ">
+                                <rect key="frame" x="56" y="251" width="302" height="394"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gpw-oi-zJZ" secondAttribute="height" multiplier="125:163" id="iYA-hD-Kdg"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OxV-NW-F9o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8JS-b7-91k"/>
+                            <constraint firstItem="6Nn-aC-Zsj" firstAttribute="top" secondItem="gpw-oi-zJZ" secondAttribute="bottom" constant="8" symbolic="YES" id="8XC-2f-hfF"/>
+                            <constraint firstItem="xgh-HV-6N0" firstAttribute="leading" secondItem="OxV-NW-F9o" secondAttribute="leading" id="EFI-uf-k0l"/>
+                            <constraint firstItem="xgh-HV-6N0" firstAttribute="top" secondItem="OxV-NW-F9o" secondAttribute="bottom" constant="15" id="KKN-uQ-HcY"/>
+                            <constraint firstItem="6Nn-aC-Zsj" firstAttribute="centerX" secondItem="Czh-Rg-7Qp" secondAttribute="centerX" id="ZMA-iL-gG9"/>
+                            <constraint firstItem="xgh-HV-6N0" firstAttribute="leading" secondItem="gpw-oi-zJZ" secondAttribute="leading" id="beV-zY-6Ke"/>
+                            <constraint firstItem="OxV-NW-F9o" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="bgQ-df-3Du"/>
+                            <constraint firstItem="OxV-NW-F9o" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="cMB-w9-41d"/>
+                            <constraint firstItem="gpw-oi-zJZ" firstAttribute="top" secondItem="xgh-HV-6N0" secondAttribute="bottom" constant="25" id="csS-Ue-J8h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Czh-Rg-7Qp" secondAttribute="bottom" constant="35" id="czr-aW-Atj"/>
+                            <constraint firstItem="Czh-Rg-7Qp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gxG-ZY-bXg"/>
+                            <constraint firstItem="xgh-HV-6N0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jaD-Lu-vTV"/>
+                            <constraint firstItem="gpw-oi-zJZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mKt-IP-KnA"/>
+                            <constraint firstItem="gpw-oi-zJZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sO1-T9-OkI"/>
+                            <constraint firstItem="gpw-oi-zJZ" firstAttribute="leading" secondItem="Czh-Rg-7Qp" secondAttribute="leading" id="xIo-bH-eEO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="animalImage" destination="gpw-oi-zJZ" id="dxu-b5-ioS"/>
+                        <outlet property="messageText" destination="6Nn-aC-Zsj" id="HF8-gK-0v6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="18.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="openimage" width="242" height="350"/>
+    </resources>
+</document>
