@@ -36,7 +36,7 @@ public class ViewController: UIViewController,  SFSpeechRecognizerDelegate {
         super.viewDidLoad()
         
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
+        //navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
         
         let tap:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard))
         view.addGestureRecognizer(tap)
@@ -170,7 +170,9 @@ public class ViewController: UIViewController,  SFSpeechRecognizerDelegate {
             }
         }
     }
-    @objc func shareTapped(_ sender: Any) {
+    
+    
+    @IBAction func shareTapped(_ sender: Any) {
         guard let myText : String = transcribedText.text
             else{
                 print("no image found")
