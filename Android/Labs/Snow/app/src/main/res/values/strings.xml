@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Snow</string>
+    <string name="snowcolor">Favorite Color</string>
+    <string name="makeitsnow">Make it Snow</string>
+</resources>
