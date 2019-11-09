@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lab7</string>
+    <string name="heading">Restaurant Finder</string>
+    <string name="restaurant_button">Find</string>
+    <string name="toggle_on">Fast Food</string>
+    <string name="toggle_off">Sit Down</string>
+    <string-array name="nationality">
+        <item>American</item>
+        <item>Asian</item>
+        <item>Italian</item>
+        <item>Mexican</item>
+        <item>Greek</item>
+    </string-array>
+    <string name="nationtitle">Select Cuisine Type: </string>
+    <string name="radio1">$</string>
+    <string name="radio2">$$</string>
+    <string name="radio3">$$$</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+</resources>
