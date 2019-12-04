@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="holidayfinder">Holiday Finder</string>
+    <string name="choose_genre">Choose your favorite movie genre: </string>
+    <string name="choose_food">Choose your favorite type of food: </string>
+    <string name="button">Find Holiday</string>
+    <string-array name="movie">
+        <item>Elf</item>
+        <item>A Charlie Brown Thanksgiving</item>
+        <item>Hop</item>
+        <item>Hocus Pocus</item>
+        <item>Valentine\'s Day</item>
+        <item>New Year\'s Eve</item>
+        <item>The Sandlot</item>
+    </string-array>
+    <string name="title_activity_holiday">Holiday</string>
+    <string name="title_activity_holiday_find">HolidayFind</string>
+    <string name="suggested_holiday">This is your suggested holiday</string>
+</resources>
