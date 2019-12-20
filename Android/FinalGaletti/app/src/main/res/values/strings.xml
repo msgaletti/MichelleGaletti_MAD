@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FinalGaletti</string>
+    <string name="title">Burrito Builder</string>
+    <string name="build_burrito">Build</string>
+    <string name="toggle_on">Meat</string>
+    <string name="toggle_off">Veggie</string>
+    <string-array name="location">
+        <item> The Hill</item>
+        <item> 29th Street</item>
+        <item> Pearl Street</item>
+    </string-array>
+    <string name="radio1">Burrito</string>
+    <string name="radio2">Taco</string>
+    <string name="salsa">Salsa</string>
+    <string name="sourcream">Sour Cream</string>
+    <string name="cheese">Cheese</string>
+    <string name="guac">Guacamole</string>
+    <string name="title_activity_burrito">BurritoActivity</string>
+    <string name="suggested_burrito">This is your suggested burrito/taco place to check out!</string>
+    <string name="find_burrito">Find Burrito</string>
+</resources>
